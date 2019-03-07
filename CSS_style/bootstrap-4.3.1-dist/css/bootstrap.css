@@ -40,9 +40,7 @@
 *::after {
   box-sizing: border-box;
 }
-.fix_a:focus:hover:active{
-  color:#05386B
-}
+
 .nav_item {
   padding-left: 2em;
   padding-right:2em;
@@ -56,10 +54,10 @@
   color: #05386B;
 }
 .intro {
-  color: #05386B;
+  color: #66fcf1;
   text-align: center;
   padding-top: 40vh;
-  background: #5CDB95
+  background: #1f2833
   
 }
 .fixed_nav{
@@ -69,13 +67,16 @@
   z-index:1;
 }
 .footer_style{
-  background:#05386B;
+  background:#1f2833;
   padding-top:2em;
   padding-bottom:2em;
-  color:#5CDB95;
+  color:#66fcf1;
 }
 #welcome-section{
   height: 100vh;
+}
+#projects{
+background:#c5c6c7;
 }
 .common-style{
   background: #5CDB95;
@@ -89,9 +90,6 @@
 .spaced{
   padding-top:5em;
   padding-bottom:2em;
-}
-.active_links:active:focus:hover{
-  color:#05386B
 }
 html {
   font-family: sans-serif;

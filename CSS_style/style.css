@@ -1,0 +1,114 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  .nav_item {
+    padding-left: 2em;
+    padding-right:2em;
+  }
+  .nav_space ul{
+    margin-top:1em;
+    margin-bottom:1em;
+  
+  }
+  .intro p{
+    color: #45a29e;
+  }
+  .intro {
+    color: #66fcf1;
+    text-align: center;
+    padding-top: 40vh;
+    background: #1f2833
+    
+  }
+  .fixed_nav{
+    position:fixed;
+    width: 100%;
+    text-align: right;
+    z-index:1;
+    background:#0B0c10
+  }
+  .footer_style{
+    background:#05386B;
+    padding-top:2em;
+    padding-bottom:2em;
+    color:#5CDB95;
+  }
+  #welcome-section{
+    height: 100vh;
+  }
+  .common-style{
+    background: #1f2833;
+    color: #66fcf1;
+  }
+  .contact_space{
+    padding-top:15em;
+    padding-bottom:15em;
+  
+  }
+  .spaced{
+    padding-top:5em;
+    padding-bottom:2em;
+  }
+  .active_links:active:focus:hover{
+    color:#05386B
+  }
+  html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+    background: #5CDB95
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    background-color: #fff;
+  }
+  nav li{
+      text-align: right;
+      display:inline
+  }
