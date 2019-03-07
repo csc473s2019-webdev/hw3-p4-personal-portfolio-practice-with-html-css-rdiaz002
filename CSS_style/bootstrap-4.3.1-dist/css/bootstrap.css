@@ -51,7 +51,14 @@
   background: #5CDB95
   
 }
-
+.common-style{
+  background: #5CDB95;
+  color: #05386B;
+}
+.spaced{
+  padding-top:5em;
+  padding-bottom:2em;
+}
 .active_links:active:focus:hover{
   color:#05386B
 }
