@@ -51,9 +51,15 @@
   background: #5CDB95
   
 }
+.footer_style{
+  background:#05386B;
+  padding-top:2em;
+  padding-bottom:2em;
+  color:#5CDB95;
+}
 .common-style{
   background: #5CDB95;
-  color: #05386B;
+  color: rgb(6, 42, 78);
 }
 .contact_space{
   padding-top:15em;
