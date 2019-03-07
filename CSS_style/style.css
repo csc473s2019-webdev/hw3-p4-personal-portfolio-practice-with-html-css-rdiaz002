@@ -34,7 +34,23 @@
   *::after {
     box-sizing: border-box;
   }
-
+  .project-title{
+      font-weight: bold;
+  }
+  .project-pic{
+      width: 10em;
+      height: 10em;
+  }
+  .project{
+    text-decoration: none;
+    color: #1f2833;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid #66fcf1;
+    height: 220px;
+    width: 280px;
+    margin: 40px 100px;
+  }
   .nav_item {
     padding-left: 2em;
     padding-right:2em;
@@ -62,10 +78,10 @@
     background:#0B0c10
   }
   .footer_style{
-    background:#05386B;
+    background:rgb(0, 0, 0);
     padding-top:2em;
     padding-bottom:2em;
-    color:#5CDB95;
+    color:rgb(15, 229, 236);
   }
   #welcome-section{
     height: 100vh;
@@ -111,4 +127,13 @@
   nav li{
       text-align: right;
       display:inline
+  }
+  a{
+      color:#66fcf1
+  }
+  a:focus{
+      color:#45a29e
+  }
+  a:hover{
+    color:#45a29e
   }
