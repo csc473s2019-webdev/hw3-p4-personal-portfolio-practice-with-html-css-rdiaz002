@@ -40,7 +40,21 @@
 *::after {
   box-sizing: border-box;
 }
+.intro p{
+  color: #05386B;
+}
+.intro {
+  color: #05386B;
+  text-align: center;
+  padding-top: 15em;
+  padding-bottom:15em;
+  background: #5CDB95
+  
+}
 
+.active_links:active:focus:hover{
+  color:#05386B
+}
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -50,6 +64,7 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
+  background: #5CDB95
 }
 
 body {
@@ -59,7 +74,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  text-align: left;
+  text-align: center;
   background-color: #fff;
 }
 
